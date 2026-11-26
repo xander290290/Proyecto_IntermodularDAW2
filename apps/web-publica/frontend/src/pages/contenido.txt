@@ -1,0 +1,8 @@
+Rutas Astro renderizadas en servidor a partir de los datos de la API PHP/MySQL:
+
+- `index.astro`: carga la portada desde `pages/inicio` y muestra programas activos y noticias publicadas.
+- `[slug].astro`: resuelve cada página visible consultando la API por slug y muestra grupos de contenido o programas activos.
+- `noticias/index.astro`: lista noticias publicadas desde la API.
+- `noticias/[id].astro`: muestra el detalle publicado de una noticia.
+
+Las rutas no requieren login y no incluyen funciones privadas de la intranet. El contenido procede de MySQL a través de la API y se actualiza sin recompilar el frontend.

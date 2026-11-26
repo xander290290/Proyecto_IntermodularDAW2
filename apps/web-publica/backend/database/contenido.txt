@@ -1,0 +1,4 @@
+`001_initial_schema.sql` crea en MySQL las tablas del modelo relacional inicial
+aprobado. `002_seed_public_pages.sql` inserta la portada y las secciones
+iniciales. Compose ejecuta ambos archivos al crear por primera vez un volumen;
+los cambios posteriores requieren migraciones.

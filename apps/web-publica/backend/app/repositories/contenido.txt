@@ -1,0 +1,1 @@
+`public_content_repository.php` agrupa consultas PDO parametrizadas de lectura para navegación, páginas, noticias y programas, manteniendo el SQL separado del enrutado HTTP.

@@ -1,0 +1,4 @@
+Document root del backend. `index.php` recibe las peticiones, delega en las
+rutas internas y responde en JSON; `.htaccess` redirige al punto de entrada
+las rutas que no correspondan a archivos. La lógica y configuración privadas
+se mantienen fuera de este directorio.
