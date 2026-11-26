@@ -1,0 +1,10 @@
+Aplicación independiente del frontend privado de la intranet, creada con React, TypeScript y Vite.
+- `src\`: aplicación React, estilos, componentes, vistas y registro PWA.
+- `public\`: iconos y recursos estáticos servidos directamente por Vite.
+- `package.json` y `package-lock.json`: scripts y dependencias propias del frontend.
+- `vite.config.ts` y `tsconfig*.json`: configuración de Vite, PWA y TypeScript.
+- `index.html`: documento base de la aplicación.
+- `.env.example`: plantilla de configuración local sin credenciales.
+- `.gitignore`: exclusiones locales de dependencias, builds y configuración.
+- `README.md`: instrucciones para instalar, desarrollar, comprobar y compilar.
+- Cada carpeta de código contiene `contenido.txt` con su función y los archivos previstos.
