@@ -1,0 +1,14 @@
+# MongoDB para desarrollo local (opcional: alternativa a instalar MongoDB en el sistema).
+# Expone MongoDB en el puerto 27018 del equipo, que es el que usa .env.example.
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: intranet-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:

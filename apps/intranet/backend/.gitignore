@@ -1,6 +1,6 @@
 # Local configuration may contain secrets; commit only the .env.example template.
 .env
-.env.example
+#.env.example
 
 # Virtual environment and generated Python/test files.
 .venv/
